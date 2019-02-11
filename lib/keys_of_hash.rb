@@ -14,4 +14,11 @@ class Hash
   end
 end
 
- 
+
+key_array = []
+values.each do |v|
+  if v == arguments 
+    index = values.index(v)
+    key_array << keys.at(index)
+  end 
+end 
