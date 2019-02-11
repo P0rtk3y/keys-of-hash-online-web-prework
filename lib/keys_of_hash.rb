@@ -9,7 +9,7 @@ class Hash
         key_array << keys.at(index) 
       end 
     end 
-    key_array
+    puts key_array
   end
 end
 
