@@ -1,8 +1,9 @@
 require 'pry'
 
 class Hash
+  key_array = []
   def keys_of(*arguments)
-    key_array = []
+   
     values.each do |v| 
       if v == arguments.join 
         index = values.index(v)
