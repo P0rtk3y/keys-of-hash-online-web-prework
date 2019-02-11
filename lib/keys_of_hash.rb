@@ -1,10 +1,11 @@
 require 'pry'
 
 class Hash
-  key_array = []
+ 
   def keys_of(*arguments)
    
-    values.each do |v| 
+   key_array = []
+    arguments.each do |v| 
       if v == arguments.join 
         index = values.index(v)
         key_array << keys.at(index) 
