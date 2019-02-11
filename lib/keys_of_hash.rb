@@ -10,6 +10,7 @@ class Hash
         if v == country 
           key_array << k
         end 
+        
       end 
     end 
     key_array
