@@ -6,11 +6,7 @@ class Hash
    
    key_array = []
     arguments.each do |v| 
-      if v == arguments.join 
-        index = values.index(v)
-        key_array << keys.at(index) 
-      end 
-    end 
+      self.each 
     key_array
   end
 end
